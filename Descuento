@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.project111;
+
+/**
+ *
+ * @author galin
+ */
+public class Project111 {
+
+    public static void main(String[] args) {
+{
+
+        double precioOriginal = 70000.0;
+        double descuento = 20.0;
+
+        double montoDescuento = (precioOriginal * descuento) / 100;
+        double precioFinal = precioOriginal - montoDescuento;
+
+        System.out.println("Monto del descuento = " + montoDescuento);
+        System.out.println("Precio final = " + precioFinal);
+    }
+}
+
+    }
